@@ -28,7 +28,7 @@ Follow these steps to get started:
 
 1️⃣ Clone the repository:
 
-[git clone https://github.com/Duncan1738/Solar-Power-Prediction-using-XGBoost-Transformer-Mode.git
+git clone https://github.com/Duncan1738/Solar-Power-Prediction-using-XGBoost-Transformer-Mode.git
 
 2️⃣ Open Solar Power Prediction using XGBoost & Transformer Model.ipynb in Jupyter or Google Colab
 3️⃣ Run the cells step by step
