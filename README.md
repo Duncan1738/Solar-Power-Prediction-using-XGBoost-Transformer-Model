@@ -55,16 +55,16 @@ Transformer Model (Deep Learning for Time-Series Forecasting)
 🔹 Transformer model allows learning long-range dependencies in time-series data
 🔹 Hyperparameter tuning is available for both models! 🛠️
 
-📦 Dependencies
+ Dependencies
 Ensure you have the following installed:
 
-🐍 Python 3.x
-📊 Pandas
-🔢 NumPy
-🎨 Matplotlib
-🚀 XGBoost
-⚙️ Scikit-learn
-🤖 PyTorch & Transformers (for deep learning model)
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- XGBoost
+- Scikit-learn
+- PyTorch & Transformers (for deep learning model)
 
-📜 License
-This project is licensed under the MIT License. Feel free to use and modify! ✨
+License
+This project is licensed under the MIT License. 
