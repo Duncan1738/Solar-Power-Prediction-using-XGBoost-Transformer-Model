@@ -8,7 +8,7 @@ Welcome to the **Solar Power Prediction** project! This repository contains a Ju
 ✅ **Univariate & Multivariate Analysis** for feature selection 
 ✅ **Hybrid Approach:** XGBoost & Transformer Model   
 ✅ **Scikit-learn Preprocessing** for better data handling 
-✅ **Google Colab Integration** for cloud-based execution 🚀  
+✅ **Google Colab Integration** for cloud-based execution   
 ✅ **Matplotlib & Pandas** for data visualization & analysis 📉  
 
 ---
