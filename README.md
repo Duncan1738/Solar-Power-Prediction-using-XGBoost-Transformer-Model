@@ -13,7 +13,7 @@ Welcome to the **Solar Power Prediction** project! This repository contains a Ju
 
 ---
 
-## 🛠️ Installation
+## 🛠 Installation
 Before running the notebook, install the required dependencies:
 
 ```bash
