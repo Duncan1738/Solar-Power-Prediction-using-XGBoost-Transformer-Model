@@ -1,4 +1,4 @@
-#  Solar Power Prediction using XGBoost & Transformer Model ⚡
+#  Solar Power Prediction using XGBoost & Transformer Model 
 
 Welcome to the **Solar Power Prediction** project! This repository contains a Jupyter Notebook that leverages **XGBoost** and a **Transformer-based model** for accurate one-hour-ahead solar power forecasting. 🌍🔋  
 
