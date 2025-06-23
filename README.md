@@ -34,7 +34,7 @@ git clone https://github.com/Duncan1738/Solar-Power-Prediction-using-XGBoost-Tra
 3️⃣ Run the cells step by step
 4️⃣ Train & evaluate both the XGBoost and Transformer model
 
-📊 Data Handling
+Data Handling
 This notebook loads data from Google Drive. If running locally, update the file paths accordingly.
 
 🔹 One-Hot Encoding & Feature Scaling applied for optimal performance
