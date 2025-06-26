@@ -41,9 +41,7 @@ This notebook loads data from Google Drive. If running locally, update the file 
 🔹 Time-Series Solar Power Data processed for better forecasting
 
  Model Overview
-✨ Algorithms:
-
-XGBoost (Extreme Gradient Boosting)
+Algorithms:XGBoost (Extreme Gradient Boosting)
 Transformer Model (Deep Learning for Time-Series Forecasting)
 ✨ Task: Regression (Predicting future solar power values)
 
