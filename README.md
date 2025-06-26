@@ -39,14 +39,12 @@ This notebook loads data from Google Drive. If running locally, update the file 
 
 🔹 One-Hot Encoding & Feature Scaling applied for optimal performance
 🔹 Time-Series Solar Power Data processed for better forecasting
-
- Model Overview
+Model Overview
 Algorithms:XGBoost (Extreme Gradient Boosting)
 Transformer Model (Deep Learning for Time-Series Forecasting)
 Task: Regression (Predicting future solar power values)
 
 ✨ Performance Metrics:
-
 🔹 Mean Absolute Error (MAE)
 🔹 Root Mean Squared Error (RMSE)
 🔹 R² Score (Coefficient of determination)
