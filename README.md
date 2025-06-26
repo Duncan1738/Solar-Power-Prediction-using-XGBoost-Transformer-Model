@@ -61,6 +61,4 @@ Ensure you have the following installed:
 - XGBoost
 - Scikit-learn
 - PyTorch & Transformers (for deep learning model)
-
-License
-This project is licensed under the MIT License. 
+ MIT License. 
