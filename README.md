@@ -1,64 +1,74 @@
-#  Solar Power Prediction using XGBoost & Transformer Model 
+# Transformer-Based Solar Power Forecasting with Minimal Feature Selection
 
-Welcome to the **Solar Power Prediction** project! This repository contains a Jupyter Notebook that leverages **XGBoost** and a **Transformer-based model** for accurate one-hour-ahead solar power forecasting. 
+This repository presents the code and methodology behind the paper:
+
+**"Enhanced Time Series-Based Solar Power Prediction Using Minimal Feature Selection"**
+
+##  Overview
+
+This project implements a Transformer-based deep learning model for solar power forecasting. Unlike traditional models that rely on dozens of meteorological features, this approach uses **only two features** — *solar irradiance* and *soil temperature* — identified through SHAP feature importance analysis using XGBoost.
+
+Despite the reduced input complexity, the model achieves a **Mean Absolute Error (MAE) of 1.1325**, comparable to a full multivariate Transformer model.
+
+##  Experimental Setup
+
+- **Dataset**: Real-world PV generation and weather data (Gangjin County, South Korea, 2019–2022)
+- **Preprocessing**:
+  - StandardScaler normalization
+  - Sliding window of size 5 for time-series forecasting
+- **Feature Selection**:
+  - XGBoost + SHAP for importance ranking
+- **Model**: Transformer with:
+  - 2 encoder layers
+  - 2 attention heads
+  - Embedding dimension: 64
+  - Dropout: 0.1
+
+##  Training Details
+
+- Framework: PyTorch
+- Optimizer: Adam
+- Learning Rate: 1e-3
+- Loss Function: MSE
+- Batch Size: 32
+- Epochs: 500
+- Evaluation Metrics: MAE, RMSE, R²
+
+##  Results Summary
+
+| Model        | MAE (Univariate) | MAE (Multivariate) |
+|--------------|------------------|--------------------|
+| RNN          | 1.22             | 4.51               |
+| GRU          | 1.60             | 3.84               |
+| LSTM         | 1.22             | 2.02               |
+| Transformer  | 1.21             | **1.14**           |
+| **Proposed** | **1.1325**       | (Minimal features) |
+
+
+```
+
+##  Key Contributions
+
+- Demonstrates effective forecasting using only two features
+- Integrates SHAP-based explainability for model interpretability
+- Outperforms baseline RNN/GRU/LSTM models with fewer inputs
 
 ---
 
-##  Features
-✅ **Univariate & Multivariate Analysis** for feature selection 
-✅ **Hybrid Approach:** XGBoost & Transformer Model   
-✅ **Scikit-learn Preprocessing** for better data handling 
-✅ **Google Colab Integration** for cloud-based execution   
-✅ **Matplotlib & Pandas** for data visualization & analysis  
+## 📎 Citation
 
----
+If you use this work, please cite:
 
-##  Installation
-Before running the notebook, install the required dependencies:
+```bibtex
+@inproceedings{kibet2025solar,
+  title={Enhanced Time Series-Based Solar Power Prediction Using Minimal Feature Selection},
+  author={Kibet, Duncan and So, Min Seop and Kang, Hahyeon and Shin, Jong-Ho},
+  booktitle={Proceedings of the XXX Workshop},
+  year={2025}
+}
+```
 
-```bash
-pip install pandas numpy matplotlib xgboost scikit-learn torch transformers
+##  Contact
 
-🔹 If using Google Colab, mount Google Drive:
-from google.colab import drive
-drive.mount('/content/drive')
-
-📌 Usage
-Follow these steps to get started:
-
-1️⃣ Clone the repository:
-
-git clone https://github.com/Duncan1738/Solar-Power-Prediction-using-XGBoost-Transformer-Mode.git
-
-2️⃣ Open Solar Power Prediction using XGBoost & Transformer Model.ipynb in Jupyter or Google Colab
-3️⃣ Run the cells step by step
-4️⃣ Train & evaluate both the XGBoost and Transformer model
-
-Data Handling
-This notebook loads data from Google Drive. If running locally, update the file paths accordingly.
-
-🔹 One-Hot Encoding & Feature Scaling applied for optimal performance
-🔹 Time-Series Solar Power Data processed for better forecasting
-Model Overview
-Algorithms:XGBoost (Extreme Gradient Boosting)
-Transformer Model (Deep Learning for Time-Series Forecasting)
-Task: Regression (Predicting future solar power values)
-
-✨ Performance Metrics:
-🔹 Mean Absolute Error (MAE)
-🔹 Root Mean Squared Error (RMSE)
-🔹 R² Score (Coefficient of determination)
-🔹 Transformer model allows learning long-range dependencies in time-series data
-🔹 Hyperparameter tuning is available for both models! 🛠️
-
- Dependencies
-Ensure you have the following installed:
-
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib
-- XGBoost
-- Scikit-learn
-- PyTorch & Transformers (for deep learning model)
- MIT License. 
+For questions or data access, contact:  
+**Duncan Kibet** – duncankibet90@gmail.com
