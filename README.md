@@ -44,8 +44,7 @@ Despite the reduced input complexity, the model achieves a **Mean Absolute Error
 | Transformer  | 1.21             | **1.14**           |
 | **Proposed** | **1.1325**       | (Minimal features) |
 
-
-```
+---
 
 ##  Key Contributions
 
