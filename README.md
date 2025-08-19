@@ -70,4 +70,4 @@ If you use this work, please cite:
 ##  Contact
 
 For questions or data access, contact:  
-**Duncan Kibet** – duncankibet90@gmail.com
+**duncankibet90@gmail.com** 
