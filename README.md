@@ -56,7 +56,8 @@ Despite the reduced input complexity, the model achieves a **Mean Absolute Error
 
 ## Citation
 
-If you use this work, please cite:
+If you use this work, please cite: I will update as soon as the paper soon
+
 
 ```bibtex
 @inproceedings{kibet2025solar,
