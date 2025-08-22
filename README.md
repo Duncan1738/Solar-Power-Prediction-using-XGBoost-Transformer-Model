@@ -56,7 +56,7 @@ Despite the reduced input complexity, the model achieves a **Mean Absolute Error
 
 ## Citation
 
-If you use this work, please cite: I will update as soon as the paper soon
+If you use this work, please cite: I will update as soon as the paper gets published.
 
 
 ```bibtex
