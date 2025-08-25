@@ -8,7 +8,7 @@ This repository presents the code and methodology behind the paper:
 
 This project implements a Transformer-based deep learning model for solar power forecasting. Unlike traditional models that rely on dozens of meteorological features, this approach uses **only two features** — *solar irradiance* and *soil temperature* — identified through SHAP feature importance analysis using XGBoost.
 
-Despite the reduced input complexity, the model achieves a **Mean Absolute Error (MAE) of 1.1325**, comparable to a full multivariate Transformer model.
+Despite the reduced input complexity, the model achieves a **Mean Absolute Error (MAE) of 1.1325**, comparable to a full multivariate Transformer model
 
 ##  Experimental Setup
 
