@@ -2,7 +2,7 @@
 
 This repository presents the code and methodology behind the paper:
 
-**"Enhanced Time Series-Based Solar Power Prediction Using Minimal Feature Selection"**
+**"Enhanced Time Series-Based Solar Power Prediction Using Minimal Feature Selection."**
 
 ##  Overview
 
